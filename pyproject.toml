@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entity-resolution-engine"
+version = "0.1.0"
+description = "纯 Python（仅标准库）实体归并库：分块、相似度打分、约束冲突与可解释聚类"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+include = ["entity_merge*"]
